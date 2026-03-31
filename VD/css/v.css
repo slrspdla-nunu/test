@@ -1,0 +1,117 @@
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+* {margin: 0; padding: 0;}
+a {color: #333; text-decoration: none;}
+li {list-style: none;}
+body {font-family: 'Pretendard';}
+
+.wrap {width: 990px; margin: 0 auto;}
+.header {width: 785px; height: 93px; background: #fff; margin: 0 auto 9px auto}
+.header .top {display: flex; justify-content: space-between;}
+.header .top h1 {width: 200px; height: 60px; background: #fff;}
+.header .top .topmenu {width: 250px; height: 45px; background: #fff; display: flex; justify-content: end}
+.header .top .topmenu a {display: flex; align-items: center; padding: 10px;  gap: 5px; font-size: 14px;}
+
+.header nav {width: 785px; height: 28px; background: #333; margin-top: 5px;}
+.header nav ul {display: flex; justify-content: center; height: 100%;}
+.header nav ul li {font-size: 15px; display: flex;}
+.header nav ul li a {color: #fff; padding: 0 25px; display: flex; align-items: center;}
+
+.visual {width: 990px; height: 392px; background: #ccc;}
+.section {width: 785px; height: 230px; background: #fff; margin: 32px auto 55px auto; display: flex; flex-wrap: wrap; justify-content: space-between;}
+.section .bannerbox {width: 510px; height: 166px; background: #fff;}
+.section .bannerbox ul {display: flex; gap: 15px;}
+.section .bannerbox ul li {width: 113px; height: 161px;}
+.section .bannerbox ul li.big_banner {width: 251px; height: 164px;}
+
+.section .popbox {width: 247px; height: 156px; background: #fff;}
+.section .popbox h2 {font-size: 16px; height: 29px; border-bottom: 1px solid #e6e6e6; line-height: 29px;}
+.section .popbox h2 span {color: #ff9555;}
+
+.section .popbox .content {}
+.section .popbox .content ol {}
+.section .popbox .content ol li {line-height: 29px; border-bottom: 1px solid #e6e6e6; font-size: 14px; text-indent: 22px;}
+.section .popbox .content ol li a {color: #7d7d7c; display: block; font-weight: bold;}
+
+.section .noticebox {width: 785px; height: 32px; background: #e3e3e3; margin-top: 32px; display: flex; align-items: center;}
+.section .noticebox h2 {width: 107px; font-size: 16px; height: 32px; align-items: center; justify-content: center; display: flex;}
+
+.section .noticebox ul.content {flex-grow: 1; height: 32px;}
+.section .noticebox ul.content li {font-size: 14px; height: 100%;}
+.section .noticebox ul.content li a {height: 100%; display: flex; align-items: center;}
+
+.section .noticebox .btn_more {width: 80px; text-align: center; font-size: 14px; height: 100%; align-content: center ;}
+
+.footer {width: 990px; height: 90px; background: #444; display: flex; justify-content: space-around; align-items: center;}
+.footer h1 {}
+.footer .company_info {color: #ccc; font-size: 13px; width: 600px; text-align: right;}
+
+
+
+
+.visual_sub {width: 990px; height: 170px; background: #999;}
+
+.section_sub {display: flex;}
+.section_sub .aside {width: 175px; background: #ccc;}
+.section_sub .content {flex-grow: 1; border: 1px solid #000; height: 500px;}
